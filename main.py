@@ -23,7 +23,7 @@ db = sqlite3.connect(os.path.join(DIR, "SongTracker.db"))  # connecting to DB if
 SQL = db.cursor()
 
 
-
+#younver here
 async def send_embedded(ctx, content):
     embed = discord.Embed(color=0x00ff00, description=content)
     await ctx.send(embed=embed)
